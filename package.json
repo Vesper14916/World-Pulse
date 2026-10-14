@@ -1,0 +1,30 @@
+{
+  "name": "munditrace",
+  "version": "1.0.0",
+  "private": false,
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "dev": "vite --config vite.config.ts",
+    "build": "vite build --config vite.config.ts",
+    "preview": "vite preview --config vite.config.ts",
+    "test": "tsx --test tests/world-pulse-*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "security:scan": "node scripts/security-scan.mjs"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.8.0",
+    "maplibre-gl": "^6.4.1",
+    "ws": "^8.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "@types/ws": "^8.18.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7"
+  }
+}

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.world-pulse/
+tmp/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
