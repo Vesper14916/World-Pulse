@@ -1,8 +1,8 @@
-# MundiTrace
+# World-Pulse
 
 **A local-first workspace for following world events, public reporting, and company signals on a map.**
 
-MundiTrace brings public RSS, earthquake, market, and maritime feeds into one desktop-friendly interface. It runs on your computer, keeps a seven-day working cache, and makes AI analysis optional through an endpoint and API key that you choose.
+World-Pulse brings public RSS, earthquake, market, and maritime feeds into one desktop-friendly interface. It runs on your computer, keeps a seven-day working cache, and makes AI analysis optional through an endpoint and API key that you choose.
 
 This repository is a focused, local-first application extracted from [World Monitor](https://github.com/koala73/worldmonitor). It has its own install, build, and Git history. The source and this derivative work are distributed under **AGPL-3.0-only**; see [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md).
 
@@ -93,4 +93,4 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. Pu
 
 ## License
 
-MundiTrace is distributed under the GNU Affero General Public License, version 3 only. Preserve the license and required notices when redistributing covered source. If you modify the program and let users interact with that version over a network, AGPL section 13 also requires offering those users the corresponding source. Read the full [LICENSE](LICENSE) and [GNU AGPL text](https://www.gnu.org/licenses/agpl-3.0.en.html).
+World Pulse is distributed under the GNU Affero General Public License, version 3 only. Preserve the license and required notices when redistributing covered source. If you modify the program and let users interact with that version over a network, AGPL section 13 also requires offering those users the corresponding source. Read the full [LICENSE](LICENSE) and [GNU AGPL text](https://www.gnu.org/licenses/agpl-3.0.en.html).
