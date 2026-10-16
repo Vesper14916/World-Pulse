@@ -2,11 +2,11 @@
 
 ## World Monitor source
 
-MundiTrace contains code derived from [World Monitor](https://github.com/koala73/worldmonitor). The upstream project identifies copyright © 2024–2026 Elie Habib; other contributors retain rights in their contributions. The upstream source and this derivative work are licensed under AGPL-3.0-only; see [LICENSE](LICENSE). This focused extraction has a new Git history and does not include the upstream repository history. MundiTrace is an independent extraction and is not presented as the upstream project's official release.
+World Pulse contains code derived from [World Monitor](https://github.com/koala73/worldmonitor). The upstream project identifies copyright © 2024–2026 Elie Habib; other contributors retain rights in their contributions. The upstream source and this derivative work are licensed under AGPL-3.0-only; see [LICENSE](LICENSE). This focused extraction has a new Git history and does not include the upstream repository history. World Pulse is an independent extraction and is not presented as the upstream project's official release.
 
 ## Geographic data
 
-The included country, city, land, and coastline data is derived from Natural Earth datasets. Natural Earth data is public domain. Source links, retrieval notes, and the MundiTrace simplification details are recorded in `public/data/cities.README.md` and `public/data/pulse-coastline-10m.README.md`.
+The included country, city, land, and coastline data is derived from Natural Earth datasets. Natural Earth data is public domain. Source links, retrieval notes, and the World Pulse simplification details are recorded in `public/data/cities.README.md` and `public/data/pulse-coastline-10m.README.md`.
 
 ## Runtime dependencies
 

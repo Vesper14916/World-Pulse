@@ -1,4 +1,4 @@
-# MundiTrace detailed coastlines
+# World Pulse detailed coastlines
 
 Source: Natural Earth 1:10m coastline, public domain.
 https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-coastline/

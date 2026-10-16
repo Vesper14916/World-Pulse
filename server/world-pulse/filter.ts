@@ -319,7 +319,7 @@ export class HeadlineFilter {
               headers: {
                 'Content-Type': 'application/json',
                 Authorization: `Bearer ${this.env.LLM_API_KEY}`,
-                'User-Agent': 'MundiTrace/1.0',
+                'User-Agent': 'WorldPulse/1.0',
               },
               body: JSON.stringify({
                 model: this.model,

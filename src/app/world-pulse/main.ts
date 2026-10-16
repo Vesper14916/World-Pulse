@@ -414,9 +414,9 @@ function updateHeader() {
   search.setAttribute('aria-label', `Search ${mode} events`);
   timeSelect.value = String(current().hours);
   areaButton.hidden = mode !== 'explore';
-  document.title = `MundiTrace · ${mode[0]!.toUpperCase() + mode.slice(1)}`;
+  document.title = `World Pulse · ${mode[0]!.toUpperCase() + mode.slice(1)}`;
   root.setAttribute('data-appearance', state.appearance);
-  if(state.workspace.active==='command')document.title='MundiTrace · Command';
+  if(state.workspace.active==='command')document.title='World Pulse · Command';
   const ai = snapshot.aiControl;
   const aiLabel = !ai?.enabled ? 'AI Off' : ai.effective ? 'AI On' : 'AI Setup';
   aiToggleButton.textContent = aiLabel;
@@ -3086,7 +3086,7 @@ function downloadConfiguration() {
   const href = URL.createObjectURL(new Blob([content], { type: 'application/json' }));
   const anchor = el('a', {
     href,
-    download: `munditrace-config-${new Date().toISOString().slice(0, 10)}.json`,
+    download: `world-pulse-config-${new Date().toISOString().slice(0, 10)}.json`,
   });
   document.body.append(anchor);
   anchor.click();
@@ -3099,12 +3099,12 @@ function chooseConfigurationImport() {
   input.addEventListener('change', async () => {
     const file = input.files?.[0];
     if (!file || file.size > 1_000_000) {
-      toast('Choose a MundiTrace configuration file under 1 MB.');
+      toast('Choose a World Pulse configuration file under 1 MB.');
       return;
     }
     const imported = importConfiguration(await file.text());
     if (!imported) {
-      toast('This file is not a valid MundiTrace configuration.');
+      toast('This file is not a valid World Pulse configuration.');
       return;
     }
     state = imported;

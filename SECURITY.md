@@ -1,6 +1,6 @@
 # Security policy
 
-Use the latest `main` revision and Node.js 24. MundiTrace is a local-first project; do not expose its local server to an untrusted network.
+Use the latest `main` revision and Node.js 24. World Pulse is a local-first project; do not expose its local server to an untrusted network.
 
 ## Reporting a vulnerability
 

@@ -1,6 +1,6 @@
 # AI configuration
 
-MundiTrace does not select or host an AI provider. AI is optional and uses the OpenAI Chat Completions request and response format.
+World Pulse does not select or host an AI provider. AI is optional and uses the OpenAI Chat Completions request and response format.
 
 ## Configure a provider
 
@@ -25,9 +25,9 @@ Manual analysis is not blocked by a missing price or by the automatic filter bud
 
 - Connection test: a small JSON-only test prompt.
 - Automatic filtering: report titles only.
-- On-demand analysis: public report titles, summaries, source names/IDs, and excerpts already read in MundiTrace.
+- On-demand analysis: public report titles, summaries, source names/IDs, and excerpts already read in World Pulse.
 
-The AI provider receives the content for the requested operation. Holdings, saved company lists, and workspace preferences are not included. MundiTrace does not persist generated AI responses. The locally stored budget totals contain token counts and estimated costs, not the prompts or responses.
+The AI provider receives the content for the requested operation. Holdings, saved company lists, and workspace preferences are not included. World Pulse does not persist generated AI responses. The locally stored budget totals contain token counts and estimated costs, not the prompts or responses.
 
 ## Local API boundary
 

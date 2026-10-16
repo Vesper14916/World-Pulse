@@ -43,9 +43,9 @@ import {
 // Publisher pages and Google News are read only when the viewer opens a report,
 // the way a browser would; a browser-like agent avoids bot-only error pages.
 const BROWSER_USER_AGENT =
-  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36 MundiTrace/0.4';
+  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36 WorldPulse/1.0';
 const DEFAULT_USER_AGENT =
-  'MundiTrace/1.0 (https://github.com/Vesper14916/munditrace)';
+  'WorldPulse/1.0 (https://github.com/Vesper14916/World-Pulse)';
 
 function suppliedSourceIds(event: PulseEvent): Set<string> {
   return new Set(

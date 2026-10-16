@@ -1,6 +1,6 @@
 # Privacy
 
-MundiTrace is designed to run on the user's computer. It has no shared backend, account system, analytics integration, or hosted AI endpoint.
+World Pulse is designed to run on the user's computer. It has no shared backend, account system, analytics integration, or hosted AI endpoint.
 
 ## Data stored locally
 
@@ -19,11 +19,11 @@ Optional integrations such as market quotes and maritime observations contact th
 
 ## No public AI service
 
-The server binds to `127.0.0.1`, and its API rejects non-local host headers and cross-origin requests. MundiTrace does not expose an AI route on the public internet or relay requests through a project-owned service.
+The server binds to `127.0.0.1`, and its API rejects non-local host headers and cross-origin requests. World Pulse does not expose an AI route on the public internet or relay requests through a project-owned service.
 
 ## Remove local data
 
-Turn off AI and clear the saved API key in Settings → AI configuration. To remove cached reports and local settings, stop MundiTrace, delete `.world-pulse/`, and clear the browser's site data for `127.0.0.1`. Remove `.env.local` to delete any locally stored provider credentials. These operations do not revoke keys at their provider; revoke them there if needed.
+Turn off AI and clear the saved API key in Settings → AI configuration. To remove cached reports and local settings, stop World Pulse, delete `.world-pulse/`, and clear the browser's site data for `127.0.0.1`. Remove `.env.local` to delete any locally stored provider credentials. These operations do not revoke keys at their provider; revoke them there if needed.
 
 ## Limitations
 

@@ -165,7 +165,7 @@ export class PulseMap {
       new maplibregl.AttributionControl({
         compact: true,
         customAttribution:
-          'Boundaries & cities: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener noreferrer">Natural Earth</a> · MundiTrace assets',
+          'Boundaries & cities: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener noreferrer">Natural Earth</a> · World Pulse assets',
       }),
       'bottom-right',
     );

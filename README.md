@@ -1,8 +1,8 @@
-# World-Pulse
+# World Pulse
 
 **A local-first workspace for following world events, public reporting, and company signals on a map.**
 
-World-Pulse brings public RSS, earthquake, market, and maritime feeds into one desktop-friendly interface. It runs on your computer, keeps a seven-day working cache, and makes AI analysis optional through an endpoint and API key that you choose.
+World Pulse brings public RSS, earthquake, market, and maritime feeds into one desktop-friendly interface. It runs on your computer, keeps a seven-day working cache, and makes AI analysis optional through an endpoint and API key that you choose.
 
 This repository is a focused, local-first application extracted from [World Monitor](https://github.com/koala73/worldmonitor). It has its own install, build, and Git history. The source and this derivative work are distributed under **AGPL-3.0-only**; see [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md).
 
@@ -68,7 +68,7 @@ See [AI configuration](docs/AI_CONFIGURATION.md), [Privacy](docs/PRIVACY.md), an
 
 The local service retrieves public feeds and data from their publishers. Opening a report may request its public article page for a readable excerpt. When you request AI analysis, your selected provider receives the requested public report titles, summaries, source identifiers, and excerpts already read in the app. Automatic filtering sends titles only. The app does not send holdings, saved company lists, or workspace preferences to the AI provider, and it does not save AI responses.
 
-The local API is available only on loopback and rejects cross-origin requests. MundiTrace does not provide a hosted AI service or a public AI API. Public providers may receive ordinary network metadata, such as your IP address. Review a provider's terms and privacy policy before sending it data.
+The local API is available only on loopback and rejects cross-origin requests. World Pulse does not provide a hosted AI service or a public AI API. Public providers may receive ordinary network metadata, such as your IP address. Review a provider's terms and privacy policy before sending it data.
 
 Read the full [privacy description](docs/PRIVACY.md).
 
@@ -76,7 +76,7 @@ Read the full [privacy description](docs/PRIVACY.md).
 
 The included geographic data is derived from public-domain Natural Earth datasets. Sources, retrieval notes, and processing details are documented alongside the files in `public/data/`. Upstream source and direct software dependency notices are listed in [NOTICE.md](NOTICE.md).
 
-News, article excerpts, market observations, maritime data, logos, and other third-party material remain subject to the rights and terms of their respective publishers and providers. This repository does not grant rights to redistribute that material. Check each provider's terms before using or republishing its content. MundiTrace is an information tool; reports and AI analysis can be incomplete or wrong and are not financial or investment advice.
+News, article excerpts, market observations, maritime data, logos, and other third-party material remain subject to the rights and terms of their respective publishers and providers. This repository does not grant rights to redistribute that material. Check each provider's terms before using or republishing its content. World Pulse is an information tool; reports and AI analysis can be incomplete or wrong and are not financial or investment advice.
 
 ## Development
 

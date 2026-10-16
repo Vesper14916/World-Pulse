@@ -15,7 +15,7 @@ import {
 import { MaritimeStore } from './maritime-store';
 
 const ISO = (t: number) => new Date(t).toISOString();
-const UA = 'MundiTrace/0.5 (local personal research)';
+const UA = 'WorldPulse/1.0 (https://github.com/Vesper14916/World-Pulse)';
 const PORTWATCH =
   'https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query';
 const UKMTO = 'https://www.ukmto.org/recent-incidents';

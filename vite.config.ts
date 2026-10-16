@@ -42,7 +42,7 @@ function pulsePages(): Plugin {
       order: 'post',
       handler(html, context) {
         if (['/world', '/portfolio', '/explore', '/command', '/world-pulse.html'].includes(context.path))
-          return html.replace(/<title>.*?<\/title>/, '<title>MundiTrace</title>');
+          return html.replace(/<title>.*?<\/title>/, '<title>World Pulse</title>');
         return html;
       },
     },
