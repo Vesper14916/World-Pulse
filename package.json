@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "fast-xml-parser": "^5.8.0",
-    "maplibre-gl": "^6.4.1",
+    "maplibre-gl": "^6.15.0",
     "ws": "^8.21.0"
   },
   "devDependencies": {
