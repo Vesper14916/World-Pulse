@@ -18,7 +18,7 @@
   "dependencies": {
     "fast-xml-parser": "^5.8.0",
     "maplibre-gl": "^6.4.1",
-    "ws": "^8.21.0"
+    "ws": "^8.22.1"
   },
   "devDependencies": {
     "@types/node": "^24.10.0",
